@@ -1,0 +1,314 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		369C991C1558A8A1004AC003 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 369C991B1558A8A1004AC003 /* UIKit.framework */; };
+		369C991E1558A8A1004AC003 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 369C991D1558A8A1004AC003 /* Foundation.framework */; };
+		369C99201558A8A1004AC003 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 369C991F1558A8A1004AC003 /* CoreGraphics.framework */; };
+		369C99261558A8A1004AC003 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 369C99241558A8A1004AC003 /* InfoPlist.strings */; };
+		369C99281558A8A1004AC003 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 369C99271558A8A1004AC003 /* main.m */; };
+		369C992C1558A8A1004AC003 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 369C992B1558A8A1004AC003 /* AppDelegate.m */; };
+		369C993A1558A8D3004AC003 /* Born This Way（生而如此）.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 369C99321558A8D3004AC003 /* Born This Way（生而如此）.mp3 */; };
+		369C993B1558A8D3004AC003 /* Come To Me.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 369C99331558A8D3004AC003 /* Come To Me.mp3 */; };
+		369C993C1558A8D3004AC003 /* Goodbye（说再见）.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 369C99341558A8D3004AC003 /* Goodbye（说再见）.mp3 */; };
+		369C993D1558A8D3004AC003 /* 爱不曾离开.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 369C99351558A8D3004AC003 /* 爱不曾离开.mp3 */; };
+		369C993E1558A8D3004AC003 /* 爱的供养（《宫锁心玉》主题曲）.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 369C99361558A8D3004AC003 /* 爱的供养（《宫锁心玉》主题曲）.mp3 */; };
+		369C993F1558A8D3004AC003 /* 刘德华 - 今天.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 369C99371558A8D3004AC003 /* 刘德华 - 今天.mp3 */; };
+		369C99401558A8D3004AC003 /* 顺其自然.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 369C99381558A8D3004AC003 /* 顺其自然.mp3 */; };
+		369C99411558A8D3004AC003 /* 撕夜.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 369C99391558A8D3004AC003 /* 撕夜.mp3 */; };
+		369C99441558A910004AC003 /* MusicListController.m in Sources */ = {isa = PBXBuildFile; fileRef = 369C99431558A910004AC003 /* MusicListController.m */; };
+		369C994E1558AE85004AC003 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 369C994D1558AE85004AC003 /* AVFoundation.framework */; };
+		369C99561558B93B004AC003 /* MusicPlayerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 369C99541558B93B004AC003 /* MusicPlayerController.m */; };
+		369C99571558B93B004AC003 /* MusicPlayerController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 369C99551558B93B004AC003 /* MusicPlayerController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		369C99171558A8A1004AC003 /* AVFoundationDemo2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AVFoundationDemo2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		369C991B1558A8A1004AC003 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		369C991D1558A8A1004AC003 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		369C991F1558A8A1004AC003 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		369C99231558A8A1004AC003 /* AVFoundationDemo2-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AVFoundationDemo2-Info.plist"; sourceTree = "<group>"; };
+		369C99251558A8A1004AC003 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		369C99271558A8A1004AC003 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		369C99291558A8A1004AC003 /* AVFoundationDemo2-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AVFoundationDemo2-Prefix.pch"; sourceTree = "<group>"; };
+		369C992A1558A8A1004AC003 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		369C992B1558A8A1004AC003 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		369C99321558A8D3004AC003 /* Born This Way（生而如此）.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Born This Way（生而如此）.mp3"; sourceTree = "<group>"; };
+		369C99331558A8D3004AC003 /* Come To Me.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Come To Me.mp3"; sourceTree = "<group>"; };
+		369C99341558A8D3004AC003 /* Goodbye（说再见）.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Goodbye（说再见）.mp3"; sourceTree = "<group>"; };
+		369C99351558A8D3004AC003 /* 爱不曾离开.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "爱不曾离开.mp3"; sourceTree = "<group>"; };
+		369C99361558A8D3004AC003 /* 爱的供养（《宫锁心玉》主题曲）.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "爱的供养（《宫锁心玉》主题曲）.mp3"; sourceTree = "<group>"; };
+		369C99371558A8D3004AC003 /* 刘德华 - 今天.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "刘德华 - 今天.mp3"; sourceTree = "<group>"; };
+		369C99381558A8D3004AC003 /* 顺其自然.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "顺其自然.mp3"; sourceTree = "<group>"; };
+		369C99391558A8D3004AC003 /* 撕夜.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "撕夜.mp3"; sourceTree = "<group>"; };
+		369C99421558A910004AC003 /* MusicListController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MusicListController.h; sourceTree = "<group>"; };
+		369C99431558A910004AC003 /* MusicListController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MusicListController.m; sourceTree = "<group>"; };
+		369C994D1558AE85004AC003 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		369C99531558B93B004AC003 /* MusicPlayerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MusicPlayerController.h; sourceTree = "<group>"; };
+		369C99541558B93B004AC003 /* MusicPlayerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MusicPlayerController.m; sourceTree = "<group>"; };
+		369C99551558B93B004AC003 /* MusicPlayerController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MusicPlayerController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		369C99141558A8A1004AC003 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				369C994E1558AE85004AC003 /* AVFoundation.framework in Frameworks */,
+				369C991C1558A8A1004AC003 /* UIKit.framework in Frameworks */,
+				369C991E1558A8A1004AC003 /* Foundation.framework in Frameworks */,
+				369C99201558A8A1004AC003 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		369C990C1558A8A1004AC003 = {
+			isa = PBXGroup;
+			children = (
+				369C99211558A8A1004AC003 /* AVFoundationDemo2 */,
+				369C991A1558A8A1004AC003 /* Frameworks */,
+				369C99181558A8A1004AC003 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		369C99181558A8A1004AC003 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				369C99171558A8A1004AC003 /* AVFoundationDemo2.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		369C991A1558A8A1004AC003 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				369C994D1558AE85004AC003 /* AVFoundation.framework */,
+				369C991B1558A8A1004AC003 /* UIKit.framework */,
+				369C991D1558A8A1004AC003 /* Foundation.framework */,
+				369C991F1558A8A1004AC003 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		369C99211558A8A1004AC003 /* AVFoundationDemo2 */ = {
+			isa = PBXGroup;
+			children = (
+				369C992A1558A8A1004AC003 /* AppDelegate.h */,
+				369C992B1558A8A1004AC003 /* AppDelegate.m */,
+				369C99421558A910004AC003 /* MusicListController.h */,
+				369C99431558A910004AC003 /* MusicListController.m */,
+				369C99531558B93B004AC003 /* MusicPlayerController.h */,
+				369C99541558B93B004AC003 /* MusicPlayerController.m */,
+				369C99551558B93B004AC003 /* MusicPlayerController.xib */,
+				369C99221558A8A1004AC003 /* Supporting Files */,
+			);
+			path = AVFoundationDemo2;
+			sourceTree = "<group>";
+		};
+		369C99221558A8A1004AC003 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				369C99321558A8D3004AC003 /* Born This Way（生而如此）.mp3 */,
+				369C99331558A8D3004AC003 /* Come To Me.mp3 */,
+				369C99341558A8D3004AC003 /* Goodbye（说再见）.mp3 */,
+				369C99351558A8D3004AC003 /* 爱不曾离开.mp3 */,
+				369C99361558A8D3004AC003 /* 爱的供养（《宫锁心玉》主题曲）.mp3 */,
+				369C99371558A8D3004AC003 /* 刘德华 - 今天.mp3 */,
+				369C99381558A8D3004AC003 /* 顺其自然.mp3 */,
+				369C99391558A8D3004AC003 /* 撕夜.mp3 */,
+				369C99231558A8A1004AC003 /* AVFoundationDemo2-Info.plist */,
+				369C99241558A8A1004AC003 /* InfoPlist.strings */,
+				369C99271558A8A1004AC003 /* main.m */,
+				369C99291558A8A1004AC003 /* AVFoundationDemo2-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		369C99161558A8A1004AC003 /* AVFoundationDemo2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 369C992F1558A8A1004AC003 /* Build configuration list for PBXNativeTarget "AVFoundationDemo2" */;
+			buildPhases = (
+				369C99131558A8A1004AC003 /* Sources */,
+				369C99141558A8A1004AC003 /* Frameworks */,
+				369C99151558A8A1004AC003 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AVFoundationDemo2;
+			productName = AVFoundationDemo2;
+			productReference = 369C99171558A8A1004AC003 /* AVFoundationDemo2.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		369C990E1558A8A1004AC003 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "中华中等专业学校";
+			};
+			buildConfigurationList = 369C99111558A8A1004AC003 /* Build configuration list for PBXProject "AVFoundationDemo2" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 369C990C1558A8A1004AC003;
+			productRefGroup = 369C99181558A8A1004AC003 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				369C99161558A8A1004AC003 /* AVFoundationDemo2 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		369C99151558A8A1004AC003 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				369C99261558A8A1004AC003 /* InfoPlist.strings in Resources */,
+				369C993A1558A8D3004AC003 /* Born This Way（生而如此）.mp3 in Resources */,
+				369C993B1558A8D3004AC003 /* Come To Me.mp3 in Resources */,
+				369C993C1558A8D3004AC003 /* Goodbye（说再见）.mp3 in Resources */,
+				369C993D1558A8D3004AC003 /* 爱不曾离开.mp3 in Resources */,
+				369C993E1558A8D3004AC003 /* 爱的供养（《宫锁心玉》主题曲）.mp3 in Resources */,
+				369C993F1558A8D3004AC003 /* 刘德华 - 今天.mp3 in Resources */,
+				369C99401558A8D3004AC003 /* 顺其自然.mp3 in Resources */,
+				369C99411558A8D3004AC003 /* 撕夜.mp3 in Resources */,
+				369C99571558B93B004AC003 /* MusicPlayerController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		369C99131558A8A1004AC003 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				369C99281558A8A1004AC003 /* main.m in Sources */,
+				369C992C1558A8A1004AC003 /* AppDelegate.m in Sources */,
+				369C99441558A910004AC003 /* MusicListController.m in Sources */,
+				369C99561558B93B004AC003 /* MusicPlayerController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		369C99241558A8A1004AC003 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				369C99251558A8A1004AC003 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		369C992D1558A8A1004AC003 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		369C992E1558A8A1004AC003 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		369C99301558A8A1004AC003 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AVFoundationDemo2/AVFoundationDemo2-Prefix.pch";
+				INFOPLIST_FILE = "AVFoundationDemo2/AVFoundationDemo2-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		369C99311558A8A1004AC003 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AVFoundationDemo2/AVFoundationDemo2-Prefix.pch";
+				INFOPLIST_FILE = "AVFoundationDemo2/AVFoundationDemo2-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		369C99111558A8A1004AC003 /* Build configuration list for PBXProject "AVFoundationDemo2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				369C992D1558A8A1004AC003 /* Debug */,
+				369C992E1558A8A1004AC003 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		369C992F1558A8A1004AC003 /* Build configuration list for PBXNativeTarget "AVFoundationDemo2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				369C99301558A8A1004AC003 /* Debug */,
+				369C99311558A8A1004AC003 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 369C990E1558A8A1004AC003 /* Project object */;
+}
